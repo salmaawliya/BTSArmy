@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    
+    <!-- All CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-bg sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://bts.ibighit.com/"><img src="img/logo.png" width="50" height="40">BTSArmy</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-0 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About</a>
+                    </li> 
+                     <li class="nav-item">
+                        <a class="nav-link active" href="albums.html">Albums</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link active" href="schedule.html">Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#connect">Connect</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link active" href="https://weverseshop.io/en/home">Weverse Shop</a>
+                    </li>        
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" 
+            aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="img/bts4.jpg" class="d-block w-100">
+                <div class="carousel-caption">
+                <h5 data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">Hello, We are <b>BTS</b></h5>
+                <p data-aos="fade-up" data-aos-delay="1100" data-aos-duration="1000">We Purple You Army</p>
+                </div>
+            </div>
+        <div class="carousel-item">
+            <img src="img/bts2.jpg" class="d-block w-100">
+            <div class="carousel-caption">
+                <h5></h5>
+                <p></p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/bts6.jpg" class="d-block w-100">
+            <div class="carousel-caption">
+                <h5 data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">Love Yourself, Love Myself </h5>
+            </div>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- About section starts -->
+    <section id="about" class="about section-padding">
+        <div class="container mt-5">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-5 col-12">
+                    <div class="about-img" data-aos="fade-right" data-aos-duration="700">
+                        <img src="img/bts1.jpg" class="img-fluid animated">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-7 col-12 ps-lg-5">
+                    <div class="about-text" data-aos="fade-left" data-aos-duration="700">
+                        <h1 class="cl-h1">About BTS</h1>
+                        <p class="fw-bold lh-lg">BTS, akronim dari Bangtan Sonyeondan atau “Beyond the Scene,” adalah grup Korea Selatan 
+                            nominasi Grammy yang telah merebut hati jutaan penggemar secara global sejak debutnya pada Juni 2013. Anggota BTS 
+                            adalah RM, Jin, SUGA, j-hope, Jimin, V, dan Jung Kook. Mendapatkan pengakuan untuk musik mereka yang otentik dan 
+                            diproduksi sendiri, yang terbaik pertunjukan, dan cara mereka berinteraksi dengan penggemar mereka, BTS telah 
+                            memantapkan diri mereka sebagai "Ikon Pop abad ke-21" memecahkan rekor dunia yang tak terhitung jumlahnya.</p>
+                        <a href="about.html" class="btn btn-outline-light bg-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      <!-- About section Ends -->
+
+    <!-- Members section Starts -->
+    <section class="members section-padding" id="members">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-3">
+                        <h1 class="cl-h1">Members</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                    <div class="card text-light text-center bg-white pb-2" data-aos="zoom-in" data-aos-duration="700">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <img src="img/rm.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3 class="card-title btn-bg">RM</h3>
+                            <p class="lead">Kim Namjoon</p>
+                            <a href="about.html" class="btn btn-outline-light bg-btn">Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                    <div class="card text-light text-center bg-white pb-2" data-aos="zoom-in" data-aos-duration="700">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <img src="img/jin.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3 class="card-title btn-bg">JIN</h3>
+                            <p class="lead">Kim Seokjin</p>
+                            <a href="about.html" class="btn btn-outline-light bg-btn">Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                    <div class="card text-light text-center bg-white pb-2" data-aos="zoom-in" data-aos-duration="700">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <img src="img/suga.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3 class="card-title btn-bg">SUGA</h3>
+                            <p class="lead">Min Yoongi</p>
+                            <a href="about.html" class="btn btn-outline-light bg-btn">Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                    <div class="card text-light text-center bg-white pb-2" data-aos="zoom-in" data-aos-duration="700">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <img src="img/jhope.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3 class="card-title btn-bg">J-HOPE</h3>
+                            <p class="lead">Jung Hoseok</p>
+                            <a href="about.html" class="btn btn-outline-light bg-btn">Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                    <div class="card text-light text-center bg-white pb-2" data-aos="zoom-in" data-aos-duration="700">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <img src="img/jimin.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3 class="card-title btn-bg">JIMIN</h3>
+                            <p class="lead">Park Jimin</p>
+                            <a href="about.html" class="btn btn-outline-light bg-btn">Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                    <div class="card text-light text-center bg-white pb-2" data-aos="zoom-in" data-aos-duration="700">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <img src="img/v.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3 class="card-title btn-bg">V</h3>
+                            <p class="lead">Kim Taehyung</p>
+                            <a href="about.html" class="btn btn-outline-light bg-btn">Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                    <div class="card text-light text-center bg-white pb-2" data-aos="zoom-in" data-aos-duration="700">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <img src="img/jungkook.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3 class="card-title btn-bg">JUNGKOOK</h3>
+                            <p class="lead">Jeon Jungkook</p>
+                            <a href="about.html" class="btn btn-outline-light bg-btn" >Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Members section Ends -->
+
+<!-- MV strats -->
+    <section id="mv" class="mv section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-header text-center pb-3">
+                    <h1 class="cl-h1">Music Video</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="card text-light text-center bg-white pb-2" data-aos="zoom-in" data-aos-duration="700">
+                    <div class="card-body text-dark">
+                        <div class="img-area mb-4">
+                            <a href="https://www.youtube.com/watch?v=CuklIb9d3fI"><img src="img/ptd_mv.png" class="img-fluid"></a>
+                        </div>
+                        <h5 class="card-title">BTS (방탄소년단) 'Permission to Dance' Official MV</h5>
+                        <a href="https://www.youtube.com/watch?v=CuklIb9d3fI"><h2 class="bi bi-youtube" style="color: black;"></h2></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="card text-light text-center bg-white pb-2" data-aos="zoom-in" data-aos-duration="700">
+                    <div class="card-body text-dark">
+                        <div class="img-area mb-4">
+                            <a href="https://www.youtube.com/watch?v=WMweEpGlu_U&list=PL_Cqw69_m_yz4JcOfmZb2IDWwIuej1xfN&index=7">
+                                <img src="img/butter_mv.png" class="img-fluid"></a>
+                        </div>
+                        <h5 class="card-title">BTS (방탄소년단) 'Butter' Official MV</h5>
+                        <a href="https://www.youtube.com/watch?v=WMweEpGlu_U&list=PL_Cqw69_m_yz4JcOfmZb2IDWwIuej1xfN&index=7">
+                            <h2 class="bi bi-youtube" style="color: black;"></h2></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="card text-light text-center bg-white pb-2" data-aos="zoom-in" data-aos-duration="700">
+                    <div class="card-body text-dark">
+                        <div class="img-area mb-4">
+                            <a href="https://www.youtube.com/watch?v=zFT3f9biz68&list=PL_Cqw69_m_yz4JcOfmZb2IDWwIuej1xfN&index=9">
+                                <img src="img/butter_mv.png" class="img-fluid"></a>
+                        </div>
+                        <h5 class="card-title">BTS (방탄소년단) 'Film out' Official MV</h5>
+                        <a href="https://www.youtube.com/watch?v=zFT3f9biz68&list=PL_Cqw69_m_yz4JcOfmZb2IDWwIuej1xfN&index=9">
+                            <h2 class="bi bi-youtube" style="color: black;"></h2></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="card text-light text-center bg-white pb-2" data-aos="zoom-in" data-aos-duration="700">
+                    <div class="card-body text-dark">
+                        <div class="img-area mb-4">
+                            <a href="https://www.youtube.com/watch?v=-5q5mZbe3V8&list=PL_Cqw69_m_yz4JcOfmZb2IDWwIuej1xfN&index=15">
+                                <img src="img/lgo_mv.png" class="img-fluid"></a>
+                        </div>
+                        <h5 class="card-title">BTS (방탄소년단) 'Life Goes On' Official MV</h5>
+                        <a href="https://www.youtube.com/watch?v=-5q5mZbe3V8&list=PL_Cqw69_m_yz4JcOfmZb2IDWwIuej1xfN&index=15">
+                            <h2 class="bi bi-youtube" style="color: black;"></h2></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="card text-light text-center bg-white pb-2" data-aos="zoom-in" data-aos-duration="700">
+                    <div class="card-body text-dark">
+                        <div class="ratio ratio-16x9 mb-4">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/gdZLi9oWNZg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <h5 class="card-title">BTS (방탄소년단) 'Dynamite' Official MV</h5>
+                        <a href="https://www.youtube.com/watch?v=gdZLi9oWNZg&list=PL_Cqw69_m_yz4JcOfmZb2IDWwIuej1xfN&index=20"><h2 class="bi bi-youtube" style="color: black;"></h2></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="card text-light text-center bg-white pb-2" data-aos="zoom-in" data-aos-duration="700">
+                    <div class="card-body text-dark">
+                        <div class="img-area mb-4">
+                            <a href="https://www.youtube.com/watch?v=9IHwqdz8Xhw&list=PL_Cqw69_m_yz4JcOfmZb2IDWwIuej1xfN&index=22">
+                                <img src="img/sg-mv.png" class="img-fluid"></a>
+                        </div>
+                        <h5 class="card-title">BTS (방탄소년단) 'Stay Gold' Official MV</h5>
+                        <a href="https://www.youtube.com/watch?v=9IHwqdz8Xhw&list=PL_Cqw69_m_yz4JcOfmZb2IDWwIuej1xfN&index=22">
+                            <h2 class="bi bi-youtube" style="color: black;"></h2></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="card text-light text-center bg-white pb-2" data-aos="zoom-in" data-aos-duration="700">
+                    <div class="card-body text-dark">
+                        <div class="ratio ratio-16x9 mb-4">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/0lapF4DQPKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <h5 class="card-title">BTS (방탄소년단) 'Black Swan' Official MV</h5>
+                        <a href="https://www.youtube.com/watch?v=0lapF4DQPKQ&list=PL_Cqw69_m_yz4JcOfmZb2IDWwIuej1xfN&index=25"><h2 class="bi bi-youtube" style="color: black;"></h2></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="card text-light text-center bg-white pb-2" data-aos="zoom-in" data-aos-duration="700">
+                    <div class="card-body text-dark">
+                        <div class="img-area mb-4">
+                            <a href="https://www.youtube.com/watch?v=mPVDGOVjRQ0&list=PL_Cqw69_m_yz4JcOfmZb2IDWwIuej1xfN&index=26">
+                                <img src="img/on_mv.png" class="img-fluid"></a>
+                        </div>
+                        <h5 class="card-title">BTS (방탄소년단) 'ON' Official MV</h5>
+                        <a href="https://www.youtube.com/watch?v=mPVDGOVjRQ0&list=PL_Cqw69_m_yz4JcOfmZb2IDWwIuej1xfN&index=26">
+                            <h2 class="bi bi-youtube" style="color: black;"></h2></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4 mb-5">
+                <a href="https://www.youtube.com/watch?v=ymaIzkXY8nQ&list=PL_Cqw69_m_yz4JcOfmZb2IDWwIuej1xfN" 
+                class="btn btn-outline-light bg-btn">More Music Video</a>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- MV ends -->
+
+    <!-- News starts -->
+    <section class="news section-padding" id="news">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-header text-center pb-3 mb-3">
+                    <h1 class="cl-h1">News</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                <div class="card text-center" data-aos="flip-left" data-aos-duration="700">
+                    <div class="card-body">
+                        <a href="https://www.instagram.com/7bts.update/"><img src="img/news_ig.png" class="img-fluid"></a>
+                        <h4 class="card-title py-2">7bts.update</h4>
+                        <p class="card-text">Buka laman ini untuk mengetahui berita terbaru BTS</p>
+                        <a href="https://www.instagram.com/7bts.update/"><h2 class="bi bi-instagram text-dark mx-1"></h2></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                <div class="card text-center" data-aos="flip-left" data-aos-duration="700">
+                    <div class="card-body">
+                        <a href="https://editornews.pikiran-rakyat.com/search?q=bts"><img src="img/new-br.png" class="img-fluid"></a>
+                        <h4 class="card-title py-2">BTS News</h4>
+                        <p class="card-text">Buka laman ini untuk mengetahui berita terbaru BTS</p>
+                        <a href="https://editornews.pikiran-rakyat.com/search?q=bts"><h2 class="bi bi-file-text text-dark mx-1"></h2></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                <div class="card text-center" data-aos="flip-left" data-aos-duration="700">
+                    <div class="card-body">
+                        <a href="https://twitter.com/BTS_FACTS"><img src="img/news-tw2.png" class="img-fluid"></a>
+                        <h4 class="card-title py-2">BTS fanbase</h4>
+                        <p class="card-text">Buka laman ini untuk mengetahui berita terbaru BTS</p>
+                        <a href="https://twitter.com/BTS_FACTS"><h2 class="bi bi-twitter text-dark mx-1"></h2></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- News ends -->
+
+    <!-- Connect starts -->
+    <section id="connect" class="connect section-padding">
+    <div class="container mt-5 mb-2 text-center">
+        <h3 class="cl-h1 mb-3">Connect With BTS</h3>
+        <div class="row">
+            <p class="socials fs-1">
+            <a href="https://twitter.com/BTS_twt"><i class="bi bi-twitter btn-bg mx-1"></i></a>
+            <a href="https://www.instagram.com/bts.bighitofficial/"><i class="bi bi-instagram btn-bg mx-1"></i></a>
+            <a href="https://www.youtube.com/c/BANGTANTV"><i class="bi bi-youtube btn-bg mx-1"></i></a>
+            <a href="https://www.facebook.com/bangtan.official"><i class="bi bi-facebook btn-bg mx-1"></i></a>
+            <a href="https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX"><i class="bi bi-spotify btn-bg mx-1"></i></a>
+            <a href="https://www.tiktok.com/@bts_official_bighit"><i class="bi bi-tiktok btn-bg mx-1"></i></a>
+            </p>
+        </div>
+    </div>
+    </section>
+    <!-- Connect ends -->
+
+    <!-- Footer starts -->
+    <footer class="bg-btn p-2 text-center">
+        <div class="container">
+            <p class="text-white">All Right Reserved By @BTSArmy</p>
+        </div>
+    </footer>
+    <!-- Footer ends -->
+    
+    <!-- All Js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+</body>
+</html>
